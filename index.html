@@ -16,8 +16,9 @@
 </head>
 <body>
     <div id="app" class="text-center">
-        <h1>{{message}}</h1>
-        <img :src="image" alt="Inteligenza Artificiale">
+        <h1 :class="miaClasse" @click="toggleClass">{{message}}</h1>
+
+        <img :src="image" @click="toggleImg" @dblclick="otherImg" alt="Inteligenza Artificiale">
     </div>
 </body>
 </html>
