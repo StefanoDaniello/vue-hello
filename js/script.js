@@ -18,6 +18,8 @@ const app =createApp({
         toggleImg(){
             this.image = this.image === 'https://www.dequo.it/articoli/app/uploads/2023/05/copyright-immagini-generate-ai12.jpg' ? 
             'https://www.ideabit.com/album/foto_full/formato-immagini-webp_710.jpg' : 'https://www.dequo.it/articoli/app/uploads/2023/05/copyright-immagini-generate-ai12.jpg';
+
+          
         },
         otherImg(){
             this.image = this.image === 'https://www.dequo.it/articoli/app/uploads/2023/05/copyright-immagini-generate-ai12.jpg' ? 
